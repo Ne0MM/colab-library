@@ -1,6 +1,6 @@
 type Props = {
     grow : boolean,
-    text : boolean
+    text : boolean,
 }
 
 function ColabLogo(props: Props) {
@@ -11,48 +11,48 @@ function ColabLogo(props: Props) {
   return (
     <div className="scale-50" >
         <div className={`relative h-[240px] w-[200px] flex justify-center items-center ${grow}`}>
-            <div className="w-[100px] h-[100px] rounded-full bg-white animate-growCenter flex items-center justify-center
-            text-[#7f00ffe6] text-5xl z-20 border-2">
+            <div className="w-[100px] h-[100px] rounded-full bg-white animate-growCenter flex 
+            items-center justify-center text-[#7f00ffe6] text-5xl z-20 border-2">
                 <div className="h-[50px] w-[50px] font-Noto-sans font-semibold text-center">
                     C
                 </div>
             </div>
-            <div className="h-full w-full bg-transparent absolute animate-rotatePink z-10">
+            <div className={`h-full w-full bg-transparent absolute animate-[rotatePink_1s_ease-in-out_forwards] z-10`}>
                 <div className="h-1/2 w-1/2 bg-[#ff00ffd9] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotateOrange absolute z-10">
+            <div className={`h-full w-full bg-transparent animate-[rotateOrange_1s_ease-in-out_forwards] absolute z-10`}>
                 <div className="h-1/2 w-1/2 bg-[#ff7f00d9] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotateGreen absolute z-10">
+            <div className={`h-full w-full bg-transparent animate-[rotateGreen_1s_ease-in-out_forwards] absolute z-10`}>
                 <div className="h-1/2 w-1/2 bg-[#00ff00d9] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotateBlue absolute z-10">
+            <div className={`h-full w-full bg-transparent animate-[rotateBlue_1s_ease-in-out_forwards] absolute z-10`}>
                 <div className="h-1/2 w-1/2 bg-[#0000ffda] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotateRed absolute">
+            <div className={`h-full w-full bg-transparent animate-[rotateRed_1s_ease-in-out_forwards] absolute`}>
                 <div className="h-1/2 w-1/2 bg-[#ff0000e5] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotateYellow absolute">
+            <div className={`h-full w-full bg-transparent animate-[rotateYellow_1s_ease-in-out_forwards] absolute`}>
                 <div className="h-1/2 w-1/2 bg-[#ffff00e5] absolute">
                 </div>
             </div>
     
-            <div className="h-full w-full bg-transparent animate-rotateLightBlue absolute">
+            <div className={`h-full w-full bg-transparent animate-[rotateLightBlue_1s_ease-in-out_forwards] absolute`}>
                 <div className="h-1/2 w-1/2 bg-[#037fffe6] absolute">
                 </div>
             </div>
 
-            <div className="h-full w-full bg-transparent animate-rotatePurple absolute">
+            <div className={`h-full w-full bg-transparent animate-[rotatePurple_1s_ease-in-out_forwards] absolute`}>
                 <div className="h-1/2 w-1/2 bg-[#7f00ffe6] absolute">
                 </div>
             </div>

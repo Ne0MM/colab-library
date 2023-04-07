@@ -53,17 +53,9 @@ module.exports = {
 
       },
       animation : {
-        rotatePink : 'rotatePink 2s ease-in-out forwards',
-        rotateOrange : 'rotateOrange 2s ease-in-out forwards',
-        rotateGreen : 'rotateGreen 2s ease-in-out forwards',
-        rotateBlue : 'rotateBlue 2s ease-in-out forwards',
-        rotatePurple : 'rotatePurple 2s ease-in-out forwards',
-        rotateRed : 'rotateRed 2s ease-in-out forwards',
-        rotateYellow : 'rotateYellow 2s ease-in-out forwards',
-        rotateLightBlue : 'rotateLightBlue 2s ease-in-out forwards',
-        growCenter : 'growCenter 2s ease-in-out forwards',
-        growText : 'growText 2s ease-in-out forwards',
-        growLogo : 'growLogo 2s ease-in-out forwards'
+        growCenter : 'growCenter 1s ease-in-out forwards',
+        growText : 'growText 1.3s ease-in-out forwards',
+        growLogo : 'growLogo 1.3s ease-in-out forwards'
 
       },
       fontFamily: {
